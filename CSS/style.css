@@ -1,0 +1,53 @@
+/* General body styling */
+body {
+    background-color: rgb(48, 45, 45);
+    background-size: cover;
+    color: aliceblue;
+}
+
+/* Header section */
+header {
+    text-align: center;
+}
+
+/* Navbar customization */
+.navbar {
+    background-color: rgb(48, 45, 45);
+}
+
+.navbar-brand, .nav-link {
+    color: #ffffff;
+}
+
+.nav-link.active {
+    font-weight: bold;
+}
+
+/* Dropdown hover effect */
+.navbar-dark .navbar-nav .nav-link:hover,
+.navbar-dark .navbar-nav .dropdown-menu a:hover {
+    background-color: rgb(48, 45, 45);
+}
+
+/* Custom container section */
+.container-fluid {
+    padding: 5rem;
+    background-color: rgb(48, 45, 45);
+    text-align: center;
+    color: white;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+p {
+    font-size: 1.25rem;
+}
+
+/* Styling for the columns */
+.col-sm-4 {
+    margin-bottom: 2rem;
+}
+
+
